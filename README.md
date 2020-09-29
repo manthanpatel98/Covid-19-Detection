@@ -21,10 +21,10 @@ Detecting Covid-19 from X-ray Images.
 
 ### Understanding the Model:
 
-#### Input Image:
+#### **Input Image:**
 * Here, the input image is (224,224,3) which means image is (224,224) size with RGB color.
 
-#### Layers:
+#### **Layers:**
 * **Conv2D Layer(3,3,3,32):** Conv2D Layer contains 32 kernels, size (3,3) **====>** Output: 32 images of size (222,222).
 * **Conv2D Layer(3,3,32,64):** Conv2D Layer contain 64 kernels, size (3,3) **====>** Output: 64 images of size (220,220).
 * **MaxPool2D Layer (3,3):**  MaxPool2D Layer is applied with (3,3) pool-size **====>** Output: 64 images of size (73,73).
@@ -39,7 +39,17 @@ Detecting Covid-19 from X-ray Images.
 * **Dense Layer(6272,128):** Here Flattened array will be passed to 128 neurons in the Hidden Layer with applying 'relu' Activation Function **====>** Output: (128).
 * **Dense Layer(128,2):** Output of 128 Neurons is passed to 2 Neurons with Activation Function 'softmax' which will help in deciding final output. **====>** Output: (2).
 
+---
 
+## **Loss & Accuracy:**
+
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/acc-val.png" height="250">
+
+### **Accuracy:**
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/acc.png" height="250">
+
+### **Loss:**
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/loss.png" width="250">
 
 
 
