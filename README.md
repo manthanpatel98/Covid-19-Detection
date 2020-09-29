@@ -13,6 +13,11 @@ Detecting Covid-19 from X-ray Images.
 
 ---
 
+## Motivation:
+To build a CNN model for detecting COVID-19 and create a complete end to end Project.
+
+---
+
 ## X-ray Dataset:
 * Dataset of X-ray Images are taken from [Kaggle](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset)
 
