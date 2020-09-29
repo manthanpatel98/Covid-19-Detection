@@ -1,6 +1,16 @@
 # Covid-19-Detection
 Detecting Covid-19 from X-ray Images.
 
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/covidimg.jpg" height="400">
+
+---
+
+## **Covid-19 Detection Project**
+
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/Covid.gif" width="600">
+
+### [**WebApp**](https://covidxraydetection.herokuapp.com/)
+
 ---
 
 ## X-ray Dataset:
@@ -12,6 +22,8 @@ Detecting Covid-19 from X-ray Images.
 * Here, I have manually chosen images of Covid-19 and Normal State.
 * Entire model is trained on total around 400 images.
 * For testing, I have used around 50 images.
+
+---
 
 ## Model:
 * Below is the model that I have created.
@@ -49,9 +61,9 @@ Detecting Covid-19 from X-ray Images.
 <img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/acc.png" height="250">
 
 ### **Loss:**
-<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/loss.png" width="250">
+<img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/loss.png" height="250">
 
-
+---
 
 
 
