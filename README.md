@@ -56,6 +56,8 @@ To build a CNN model for detecting COVID-19 and create a complete end to end Pro
 * **Dense Layer(6272,128):** Here Flattened array will be passed to 128 neurons in the Hidden Layer with applying 'relu' Activation Function **====>** Output: (128).
 * **Dense Layer(128,2):** Output of 128 Neurons is passed to 2 Neurons with Activation Function 'softmax' which will help in deciding final output. **====>** Output: (2).
 
+* Here, The **Images are converted into different dimensions according to applied different Mathematical Equations** based on Conv2D layer, MaxPolling and Padding.
+
 ---
 
 ## **Loss & Accuracy:**
