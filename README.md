@@ -19,7 +19,7 @@ To build a CNN model for detecting COVID-19 and create a complete end to end Pro
 ---
 
 ## X-ray Dataset:
-* Dataset of X-ray Images are taken from [Kaggle](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset)
+* Dataset of X-ray Images are taken from [Kaggle](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset).
 * Check Chest_xray_Corona_Metadata.csv and Chest_xray_Corona_dataset_Summary.csv from the given link for COVID-19 infected X-ray images. 
 ---
 
