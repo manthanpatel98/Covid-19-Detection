@@ -1,6 +1,8 @@
 # Covid-19-Detection
 Detecting Covid-19 from X-ray Images.
 
+* Note: Purpose of this test project is to learn how to build a CNN model. It does not claim any guarantee of the outcome.
+
 <img src="https://github.com/manthanpatel98/Covid-19-Detection/blob/master/images/covidimg.jpg" height="400">
 
 ---
